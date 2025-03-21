@@ -8,7 +8,7 @@ import numpy as np
 
 #Load the trained model
 # model = load_model('model.h5')
-model = load_model("R:\python_ai\ANN_Classification\model.h5")
+model = load_model("model.h5")
 #Load encoders and scalars
 with open('label_encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
